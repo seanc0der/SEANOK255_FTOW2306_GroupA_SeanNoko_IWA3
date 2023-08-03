@@ -1,7 +1,4 @@
-// scripts.js
+import { company, year } from "./configuration-iwa3.js";
 
-import company form 'configuration'
-import year form 'configuration'
-
-const message = '© ' + company + ' (' + year + ')'
-document.querySelector('footer').innerText = message
+const message = "© " + company + " (" + year + ")";
+document.querySelector("footer").innerText = message;
