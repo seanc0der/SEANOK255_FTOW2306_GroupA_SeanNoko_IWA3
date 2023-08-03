@@ -1,3 +1,9 @@
-// scripts.js
+import { alex } from "./alex-iwa3.js";
+import { johannes } from "./johannes-iwa3.js";
+import { nwabisa } from "./nwabisa-iwa3.js";
 
-console.log("Roles:", nwabisa.role, johanes.role, alex.role);
+document.querySelector("#alex").innerText = alex.display();
+document.querySelector("#johannes").innerText = johannes.display();
+document.querySelector("#nwabisa").innerText = nwabisa.display();
+
+console.log("Roles: " + nwabisa.role + ", " + johannes.role + ", " + alex.role);

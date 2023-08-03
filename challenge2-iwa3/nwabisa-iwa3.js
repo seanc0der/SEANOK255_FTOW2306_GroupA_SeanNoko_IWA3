@@ -1,8 +1,8 @@
-// nwabisa.js
-
-private firstname = "Nwabisa"
-private surname = "Gabe"
-public role = "CEO"
-
-private display= firstname + " " + surname + " (" + role + ")"
-document.querySelector('#nwabisa').innerText = display
+export const nwabisa = {
+	firstName: "Nwabisa",
+	surname: "Gabe",
+	role: "CEO",
+	display: function () {
+		return this.firstName + " " + this.surname + " (" + this.role + ")";
+	},
+};
